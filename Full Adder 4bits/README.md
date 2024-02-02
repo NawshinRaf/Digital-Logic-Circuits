@@ -41,7 +41,7 @@ and the implementation of arithmetic logic units (ALUs) in processors.
 
 Here is a demonstration of how 2 numbers that is within the range of 0 to 7 can be added using the ripple carry adder.
 Why 0 to 7 is the range?
-Since bits can be defined by only two values, 0 and 1, it has a combination of forming 2 possible outcomes. 
+Since bits can be defined by only two values, 0 and 1, each position has a combination of forming 2 possible outcomes. 
 The reason bits are powers of 2 is that each bit position represents a doubling of the value from the previous position. The rightmost bit represents 
 2^0(1), the next bit to the left represents 2^1(2), the next represents 2^2(4), and so on. This binary exponential growth is a consequence of the base-2 numbering system.
 ![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/23bd88c5-e4c9-416b-bcd7-7e07ac4886a6)
