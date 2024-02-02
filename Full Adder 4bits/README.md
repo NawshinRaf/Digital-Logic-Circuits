@@ -1,4 +1,5 @@
 You can use this code to test your own ripple carry adder. 
+
 What are adders?
  Adders are fundamental building blocks in digital logic circuits that perform the arithmetic operation of addition.
  They are used to add two binary numbers and generate a sum output along with a carry output. 
