@@ -36,7 +36,7 @@ module multiplier_tb(
      wire done;
 
 /*############COMMENT OUT THE MULTIPLIER VERSION YOU ARE USING ##########*/
- //Multiplier_8bit multiplier_instance(mcd,mlt,ON,clk,rst,product,done);
+ //multiplier_8by8bits_v2 multiplier_instance(mcd,mlt,ON,clk,rst,product,done);
  /*multiplier_8by8bits multiplier_instance(.multiplier(mlt),
     .multiplicand(mcd),
     .clk(clk),
