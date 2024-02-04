@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Multiplier_8bit( input [7:0] mcd,input [7:0] mlt,input clk,input rst,input st,
+module multiplier_8by8bits_v2( input [7:0] mcd,input [7:0] mlt,input clk,input rst,input st,
 output [15:0] prod,output done  );
 
 //Declare the registers
