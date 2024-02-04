@@ -28,3 +28,4 @@ The result can be stored in a register or memory for further processing or outpu
 
 It's important to note that the implementation details can vary based on the specific design and requirements of the ALU or the processor. 
 Modern processors may use more advanced techniques, such as parallelism, pipelining, and optimized algorithms, to perform multiplication efficiently.
+
