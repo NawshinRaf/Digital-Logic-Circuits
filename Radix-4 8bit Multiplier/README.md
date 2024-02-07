@@ -45,6 +45,8 @@ Booth’s Algorithm for Binary Multiplication Example
 
 ![IMG_20240207_012645](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/d2b22c13-a33f-4ff8-ae64-79ad090c29c2)
 
+x2 shr --> means shift to the right by 2 bits.
+
 
 
 
