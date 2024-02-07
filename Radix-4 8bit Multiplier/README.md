@@ -41,7 +41,10 @@ The partial products were added by the carry-look-ahead adder defined by 16-bit 
 The final product was passed to the 5-digit converter module via the output port.
 
 Booth’s Algorithm for Binary Multiplication Example
-![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/136de355-5642-46b7-969f-1cf1103f5933)
+![IMG_20240207_012714](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/52f974fe-0777-4aca-ac7e-2abf4f55c7f7)
+
+![IMG_20240207_012645](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/d2b22c13-a33f-4ff8-ae64-79ad090c29c2)
+
 
 
 
