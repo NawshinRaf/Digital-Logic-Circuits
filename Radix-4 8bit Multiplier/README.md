@@ -87,4 +87,7 @@ Overall, a Carry Look-Ahead Adder improves the speed of binary addition by pre-c
 
 
 
+![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/a870fdaf-da79-491c-a225-dce19488b01f)
+
+
 
