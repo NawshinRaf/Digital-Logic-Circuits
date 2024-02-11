@@ -48,6 +48,43 @@ Booth’s Algorithm for Binary Multiplication Example
 x2 shr --> means shift to the right by 2 bits.
 
 
+The adder used in this case is the Carry-look Ahead Adder. 
+
+A Carry Look-Ahead Adder (CLA) is a type of adder circuit used in digital systems to perform fast addition of binary numbers. Unlike conventional adders like ripple carry adders, which propagate carry bits serially through each stage, a carry look-ahead adder generates carry signals for all stages in parallel. This parallel generation of carry signals results in faster addition, especially for large numbers of bits.
+
+Here's how a Carry Look-Ahead Adder works:
+
+Binary Addition:
+
+A Carry Look-Ahead Adder performs binary addition just like any other adder. It takes two binary numbers as input and produces their sum along with the carry-out.
+
+
+Pre-Computation of Carry Signals:
+In a Carry Look-Ahead Adder, instead of waiting for carry signals to propagate through each stage, the carry signals for all stages are pre-computed in parallel based on the input bits.
+This pre-computation is based on mathematical expressions derived from the binary addition operation.
+
+
+Generation of Carry Look-Ahead Signals:
+The carry look-ahead signals are generated using logical expressions that consider groups of input bits.
+These expressions determine whether a carry will propagate from one stage to the next, allowing for the calculation of carry signals without needing to wait for the previous carry to propagate.
+The algorithm computes the propagate (P) and generate (G) signals for each bit position using logical operations, and then computes the sum and carry-out based on these signals.
+
+Carry Propagation:
+Once the carry look-ahead signals are computed, they are used to propagate carry information through the adder circuit.
+Each stage of the adder combines the input bits with the corresponding carry look-ahead signals to produce the sum and carry-out for that stage.
+
+
+Parallel Carry Propagation:
+Because the carry look-ahead signals are pre-computed in parallel, the carry propagation through the adder occurs in parallel as well.
+This parallel carry propagation results in faster addition compared to ripple carry adders, especially for larger numbers of bits, as there is no need to wait for carry signals to ripple through each stage sequentially.
+
+
+Fast Addition:
+By eliminating the need to wait for carry propagation, a Carry Look-Ahead Adder reduces the critical path delay of addition operations, leading to faster addition times in digital circuits.
+
+
+Overall, a Carry Look-Ahead Adder improves the speed of binary addition by pre-computing carry signals in parallel, allowing for faster propagation of carry information through the adder circuit compared to traditional ripple carry adders. However, it may require more complex logic to implement due to the generation of carry look-ahead signals.
+
 
 
 
