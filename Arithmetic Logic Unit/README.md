@@ -169,9 +169,14 @@ data result. Each Multiplexer is a 16-to-1 MUX that uses the 4 selector signals 
 operation to pass through to the output.
 
 16-to-1 MUX
+
+
 Input      ALU_Sel       Op
+
 1           0000         Add
+
 2           0001       Subtract
+
 3           0010       Multiply
 4           0011       Divide
 5           0100      Logical Shift Left
