@@ -42,10 +42,16 @@ that selects the particular operation to be performed by the ALU upon the follow
 arrived data inputs.
 
 The ALU has three main operation parts:
+
+
 ● Arithmetic - data values are operated using other systems such as full adders, multipliers and
 dividers, to produce a valuable output, eg. Add, Subtract, Multiply, Divide.
+
+
 ● Logic Unit - data values are operated using basic logic gates as well as one systemstructure also
 known as the comparator. Gates include, AND,NOR,NAND,OR,XOR,XNOR.
+
+
 ● Shift - data values are just shifted or rotated around to produce/performa desirabletask, using the
 shift registers. Eg. Left Shift, Right Shift, Rotate Left/Right.
 After all the data’s stored upon the registers are worked upon, the final output, whichis a 8-bit or 16-bit value, is
@@ -60,6 +66,8 @@ The following shows the ASM chart from within the logic units. The code is gives
 each representing the 16 different operations performed by the ALU.
 
 2.2 Top module I/O ports
+
+
 ![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/e4ccb135-08d4-4a57-9c8a-b635d0d022dc)
 
 
@@ -73,6 +81,8 @@ output of the operation is then moved into the output register and then exited u
 output ports.
 
 2.3 Schematic of the Entire Design
+
+
 ![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/1eac6897-025b-4389-8540-2e97e7642353)
 
 
@@ -84,6 +94,8 @@ Figure 2.3 Top Module of the Interconnected Structure of the ALUSystem.
 
 
 (i) 8-Bit Full Adder/Subtractor
+
+
 ![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/ad8f22f5-fb08-42ba-ada7-1ffc428bf603)
 
 Figure 2.4 Adder/Subtractor
@@ -106,6 +118,8 @@ register circuits.
 
 
 (iii) 8-Bit Divider
+
+
 ![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/d46fa792-100b-468f-9d21-0ab69c745164)![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/155806dd-030e-42fb-943b-c2a8839ff051)
 
 
