@@ -30,6 +30,8 @@ defined in the generic, are the constants that will be used during the shift ope
 (iii) Architectural Behaviour
 This part of the code is the most important part as it is where the main functionalism are written. The part will be described greatly by the use of the flowchart that will ease the
 understanding of the overall process inside an ALU.
+
+
 ![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/d6bb14ac-ab1d-4d7d-922b-d9e9f2c734c0)
 
 
@@ -60,6 +62,8 @@ each representing the 16 different operations performed by the ALU.
 2.2 Top module I/O ports
 ![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/e4ccb135-08d4-4a57-9c8a-b635d0d022dc)
 
+
+
 Figure 2.2 Top Module Block Diagram of the ALU chip.
 The figure above shows the ultimate chip-like structure of the ALU system. It shows all the inputs, outputs
 and control signals of the ALU chip. The input and output ports are all connected to the system’s
@@ -71,6 +75,8 @@ output ports.
 2.3 Schematic of the Entire Design
 ![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/1eac6897-025b-4389-8540-2e97e7642353)
 
+
+
 Figure 2.3 Top Module of the Interconnected Structure of the ALUSystem.
 
 
@@ -81,6 +87,8 @@ Figure 2.3 Top Module of the Interconnected Structure of the ALUSystem.
 ![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/ad8f22f5-fb08-42ba-ada7-1ffc428bf603)
 
 Figure 2.4 Adder/Subtractor
+
+
 The following show the 8-bit Adder/Subtractor that consists of 8 full adder systems. The Sequential
 arrangements of the full-adder circuits, is the most common form of adder system within an Arithmetic
 unit. However, due to its time-consuming and slownature, this type of adders are being replaced by the
@@ -90,51 +98,59 @@ as the carry in of the next adder.
 
 
 (ii) 8-Bit Multiplier
+
+
 The 8-bit Multiplier can be formed via various design systems. In this case, we will discuss the simplest
 and the most common multiplier. The multiplier in this case is made using the adder circuit with the shift
 register circuits.
 
 
 (iii) 8-Bit Divider
+![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/d46fa792-100b-468f-9d21-0ab69c745164)![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/155806dd-030e-42fb-943b-c2a8839ff051)
 
 
 Figure 2.5 Shows the divider module for 8-bits(left) and 4bits(right) Divider circuits
-can be made using various different circuit logic. The diagramaboveshows one such divider
-circuit. It is a combination of subtractor systems, shift registers along with 2-1 Multiplexers.
+can be made using various different circuit logic.
+
+The diagram above shows one such divider circuit. It is a combination of subtractor systems, shift registers along with 2-1 Multiplexers.
 
 
 2.3.2 Modules Inside the Logic Unit
 
 
 (i) Logic Gates
-There were 8 gate of each type used within the logic unit. Each gate represent aparticular bit for the ALU
-circuity. In total there were 48 logic gates used. There were6different logics to be controlled, that
-included NOR, OR, AND, NAND, XORand XNOR.
+There were 8 gate of each type used within the logic unit. Each gate represent a particular bit for the ALU
+circuity. In total there were 48 logic gates used. There were 6different logics to be controlled, that
+included NOR, OR, AND, NAND, XOR and XNOR.
 
 
 (ii) Comparator
 -Equal
-9
-A0=B0
-A1=B1
-A2=B2
-A3=B3
-A4=B4
-A5=B5
-A6=B6
-A7=B7
+
+![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/fd46570e-f8bb-4c0a-ae99-050758e2d221)
+
+
 Figure 2.6 Shows a 8-bit Equal Comparator Circuit.
-The circuit is made of only 9 logic gates. 8 XNOR gates and a 8-input ANDgate. TheXNOR
-gates compare the two bits, if they are the same, it output’s a 1 whilst a differencein them outputs
+The circuit is made of only 9 logic gates. 8 XNOR gates and a 8-input AND gate. The XNOR
+gates compare the two bits, if they are the same, it output’s a 1 whilst a difference in them outputs
 0. Hence, the AND gate output is 1, if only all the XNOR outputs equal 1.
-- Greater Than
-10
+
+
+
+![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/47258d13-c3c2-4fc0-ba1a-6b0748d5cccc)
+
+
 Figure 2.7 Shows a 8-bit Greater/Less than Comparator Circuit.
-The following represents the comparator built upon several different logic gates alongwith several 2-1
+
+
+The following represents the comparator built upon several different logic gates along with several 2-1
 Multiplexers. The comparator starts with LSB, XOR-ing the two bits andoutputting as the input to the
 selector of the multiplexer in the next bit comparison level.
-2.3.3 Full Multiplexer Design (One 16-1 Multiplexer for each bit) Lastly is the Multiplxer
-Structure Module. The Module composes of 8 multiplexers, eachrepresenting for one bit of the
-data result. Each Multiplexer is a 16-to-1 MUXthat usesthe 4 selector signals to select an
+
+
+2.3.3 Full Multiplexer Design (One 16-1 Multiplexer for each bit) 
+
+Lastly is the Multiplxer Structure Module. The Module composes of 8 multiplexers, each representing for one bit of the
+data result. Each Multiplexer is a 16-to-1 MUX that uses the 4 selector signals to select an
 operation to pass through to the output.
-11
+
