@@ -171,9 +171,9 @@ operation to pass through to the output.
 16-to-1 MUX
 
 
-Input           |             ALU_Sel         Op
+Input           |             ALU_Sel         Op /n
                 |
-1               |             0000         Add
+1               |             0000         Add /n
                 |
 2               |              0001       Subtract
                 |
