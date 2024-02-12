@@ -171,23 +171,36 @@ operation to pass through to the output.
 16-to-1 MUX
 
 
-Input      ALU_Sel       Op
+Input                        ALU_Sel         Op
 
-1           0000         Add
+1                             0000         Add
 
-2           0001       Subtract
+2                             0001       Subtract
 
-3           0010       Multiply
-4           0011       Divide
-5           0100      Logical Shift Left
-6           0101      Logic shift Rigth
-7           0110      Logic Rotate Left
-8           0111      Logic Rotate Right
-9           1000      AND
-10          1001      OR
-11          1010      XOR
-12          1011      NOR
-13          1100      NAND
-14          1101      XNOR
-15          1110      Greater Than
-16          1111      Equal
+3                             0010       Multiply
+
+4                             0011       Divide
+
+5                             0100      Logical Shift Left
+
+6                             0101      Logic shift Rigth
+
+7                             0110      Logic Rotate Left
+
+8                             0111      Logic Rotate Right
+
+9                             1000      AND
+
+10                            1001      OR
+
+11                            1010      XOR
+
+12                            1011      NOR
+
+13                            1100      NAND
+
+14                            1101      XNOR
+
+15                            1110      Greater Than
+
+16                            1111      Equal
