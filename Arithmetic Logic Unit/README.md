@@ -30,7 +30,8 @@ defined in the generic, are the constants that will be used during the shift ope
 (iii) Architectural Behaviour
 This part of the code is the most important part as it is where the main functionalism are written. The part will be described greatly by the use of the flowchart that will ease the
 understanding of the overall process inside an ALU.
-![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/1eed0d01-a66b-4c02-a808-d821e3f43951)
+![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/d6bb14ac-ab1d-4d7d-922b-d9e9f2c734c0)
+
 
 2.1 Overall ASM for the ALU design.
 The Algorithm state machine chart is the fundamental approach in designing the system. The chart
