@@ -1,4 +1,4 @@
-<pre>Arithmetic logic unit has always been a crucial part in every digital system. They are the core part
+Arithmetic logic unit has always been a crucial part in every digital system. They are the core part
 within all the types of processing any computer or digital-based system depends upon. Hence, the
 Arithmetic Logic Unit, also known as the ALU, requires to be designed in a comprehensive and fully
 functional manner. The project therefore aims to design an 8-bit Arithmetic Logic Unit, in it’s full
@@ -170,7 +170,7 @@ operation to pass through to the output.
 
 16-to-1 MUX
 
-
+<pre>
 Input           |             ALU_Sel         Op /n
                 |
 1               |             0000         Add /n
