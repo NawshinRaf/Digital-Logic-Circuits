@@ -206,3 +206,6 @@ Input           |             ALU_Sel         Op /n
 16              |              1111      Equal
 
 </pre>
+
+![image](https://github.com/NawshinRaf/Digital-Logic-Circuits/assets/43382522/46bb4560-ff7e-4fc4-bcad-d27045f7779f)
+
