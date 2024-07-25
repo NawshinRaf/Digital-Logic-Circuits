@@ -1,2 +1,2 @@
 # Digital-Logic-Circuits
-Find all necessary digital circuits that are the building blocks of our technological devices.
+Find some of the necessary digital circuits that are the building blocks of our technological devices.
